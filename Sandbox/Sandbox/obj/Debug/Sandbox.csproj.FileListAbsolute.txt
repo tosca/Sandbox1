@@ -77,3 +77,4 @@ C:\Root\Projects\Sandbox\Sandbox\Sandbox\bin\zh-Hant\System.Spatial.resources.dl
 C:\Root\Projects\Sandbox\Sandbox\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
 C:\Root\Projects\Sandbox\Sandbox\Sandbox\obj\Debug\Sandbox.dll
 C:\Root\Projects\Sandbox\Sandbox\Sandbox\obj\Debug\Sandbox.pdb
+C:\Root\Projects\Sandbox\Sandbox\Sandbox\bin\Sandbox.dll.config
