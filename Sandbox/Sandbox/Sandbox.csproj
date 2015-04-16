@@ -257,13 +257,22 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Images\bxslider\next%402x.png" />
+    <Content Include="Images\bxslider\next.png" />
+    <Content Include="Images\bxslider\prev%402x.png" />
+    <Content Include="Images\bxslider\prev.png" />
+    <Content Include="Images\favicon\favicon.ico" />
+    <Content Include="Images\favicon\favicon.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\side-logo%402x.png" />
+    <Content Include="Images\side-logo.png" />
+    <Content Include="Images\zoom%402x.png" />
+    <Content Include="Images\zoom.png" />
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="index.html" />
-    <Content Include="javascripts\custom\bgslider-zoom-init.js" />
-    <Content Include="javascripts\custom\bgvimeo-init.js" />
-    <Content Include="javascripts\custom\bgyoutube-init.js" />
     <Content Include="javascripts\custom\coverflow-init.js" />
     <Content Include="javascripts\custom\equalheights-init.js" />
     <Content Include="javascripts\custom\featured-init.js" />
@@ -334,18 +343,10 @@
     <Content Include="stylesheets\coverflow.css" />
     <Content Include="stylesheets\drag.png" />
     <Content Include="stylesheets\hamburger.css" />
-    <Content Include="stylesheets\intro01.css" />
     <Content Include="stylesheets\intro02.css" />
-    <Content Include="stylesheets\intro03.css" />
-    <Content Include="stylesheets\intro04.css" />
-    <Content Include="stylesheets\intro05.css" />
-    <Content Include="stylesheets\intro06.css" />
-    <Content Include="stylesheets\intro07.css" />
     <Content Include="stylesheets\isotope.css" />
     <Content Include="stylesheets\jquery.bxslider.css" />
     <Content Include="stylesheets\jquery.tweet.css" />
-    <Content Include="stylesheets\kenburns.css" />
-    <Content Include="stylesheets\main-bg.css" />
     <Content Include="stylesheets\main-responsive.css" />
     <Content Include="stylesheets\main-retina.css" />
     <Content Include="stylesheets\main.css" />
@@ -386,7 +387,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
