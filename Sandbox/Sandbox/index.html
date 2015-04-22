@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>EIGHT v1.0 - A Simple Portfolio - Responsive and Retina Ready HTML5 Template by Designova</title>
+<title>Natalie Macellaio \ Metal Artist</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="polo by Designova - Responsive HTML5 template">
-<meta name="author" content="Designova">
+    <meta name="description" content="Natallie Macellaio is a Silversmith and Metal Artist working and teaching near Dallas, Texas">
+<meta name="author" content="tosca ragnini">
 
 <!-- Standard Favicon--> 
 <link rel="shortcut icon" href="images/favicon/favicon.ico">
@@ -29,6 +29,8 @@
 <link href="stylesheets/venobox.css" rel="stylesheet" />
 <link href="stylesheets/jquery.tweet.css" rel="stylesheet"/>
 <link href="stylesheets/navmenu.css" rel="stylesheet">
+    <!-- From Featured-single -->
+    <link href="stylesheets/jquery.bxslider.css" rel="stylesheet" />
 <link href="stylesheets/isotope.css" rel="stylesheet">
 <!-- Home Variant Styles -->
 <link href="stylesheets/intro02.css" rel="stylesheet">
@@ -47,7 +49,7 @@
 <!-- LESS JS engine-->
 <script src="less/less-2.0.0.min.js"></script>
 
-<!-- Google event Fonts-->
+<!-- Google Web Fonts-->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700%7CCrimson+Text:400,700,400italic,700italic%7CLekton:400,700' rel='stylesheet' type='text/css'>
 
  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -96,17 +98,7 @@
           <ul class="main-nav-menu main-nav-menu-effect">
 
               <li class="trigger-sub-nav">
-                  <a class="main-nav-link" href="#">home</a>
-                  <div class="sub-nav">
-                    <a href="index01.html">showcase</a>
-                    <a href="index04.html">fullscreen</a>
-                    <a href="index08.html">kenburns</a>
-                    <a href="index02.html">masonry</a>
-                    <a href="index03.html">minimal</a>
-                    <a href="index05.html">promo</a>
-                    <a href="index06.html">youtube</a>
-                    <a href="index07.html">vimeo</a>
-                  </div>
+                  <a class="main-nav-link" href="index.html">home</a>                 
               </li>  
               <li class="trigger-sub-nav">
                   <a class="main-nav-link" href="#">albums</a>
@@ -151,10 +143,6 @@
               <li><a href="#"><img alt="" title="" src="images/social/06.png"/></a></li>  
         </ul>
 
-    <!-- credit text lines-->
-        <div class="credit-text">
-    <p class="font3 dark">Copyright &copy; 2014. All rights reserved.</p>
-    </div>
 
 </header>
 
@@ -164,17 +152,7 @@
 <nav class="mobile-nav hidden-lg">
             <ul class="slimmenu">
               <li>
-                  <a class="sub-collapser" href="">home</a>
-                  <ul>
-                    <li><a class="font2 black ease" href="index01.html">showcase</a></li>
-                    <li><a class="font2 black ease" href="index04.html">fullscreen</a></li>
-                    <li><a class="font2 black ease" href="index08.html">kenburns</a></li>
-                    <li><a class="font2 black ease" href="index02.html">masonry</a></li>
-                    <li><a class="font2 black ease" href="index03.html">minimal</a></li>
-                    <li><a class="font2 black ease" href="index05.html">promo</a></li>
-                    <li><a class="font2 black ease" href="index06.html">youtube</a></li>
-                    <li><a class="font2 black ease" href="index07.html">vimeo</a></li>
-                  </ul>
+                  <a class="sub-collapser" href="index.html">home</a>                  
               </li> 
               <li>
                   <a class="sub-collapser" href="">albums</a>
@@ -223,27 +201,38 @@
 
     <!-- start : works-item -->
     <div class="works-item works-item-one-third zoom portrait event">
-            <img alt="" title="" class="img-responsive" src="http://placehold.it/960x748"/>
-            <a  class="venobox" data-gall="portfolio-gallery" href="images/works/01.jpg">
-                <div class="works-item-inner valign">
-                  <h3 class="black">Lightbox Gallery</h3>
-                  <p class="white"><span class="black-bg">Category</span></p>
-                </div>
-            </a>
+        <img alt="" class="img-responsive" src="images/scribbles/scrib-01.jpg" />
+        <a class="venobox" data-gall="portfolio-gallery" title="Purple Scribble" href="images/scribbles/scrib-01.jpg">
+            <div class="works-item-inner valign">
+                <h3 class="black">New Work</h3>
+                <p class="white"><span class="black-bg">Scribbles</span></p>
+            </div>
+        </a>
     </div>
     <!-- end : works-item -->
 
 
+          <!-- start : works-item   link to new-work -->
+          <div class="works-item works-item-one-third zoom event fashion">
+              <img alt="New Work" title="Kids Scribbles" class="img-responsive" src="images/scribbles/scrib-02.jpg" />
+              <a class="venobox" data-css="custom-overlay" data-type="inline" title="Kids Scribbles" href="#new-work">
+                  <div class="works-item-inner valign">
+                      <h3 class="black">New Work</h3>
+                      <p class="white"><span class="black-bg">Kids Scribbles</span></p>
+                  </div>
+              </a>
+          </div>
+          <!-- end : works-item -->
 
     <!-- start : works-item -->
     <div class="works-item works-item-one-third zoom nature fashion">
-            <img alt="" title="" class="img-responsive" src="http://placehold.it/960x748"/>
-            <a  class="venobox" data-gall="portfolio-gallery" href="images/works/02.jpg">
-                <div class="works-item-inner valign">
-                  <h3 class="black">Lightbox Gallery</h3>
-                  <p class="white"><span class="black-bg">Category</span></p>
-                </div>
-            </a>
+        <img alt="" title="" class="img-responsive" src="images/scribbles/scrib-03.jpg" />
+        <a class="venobox" data-gall="portfolio-gallery" href="images/scribbles/scrib-03.jpg">
+            <div class="works-item-inner valign">
+                <h3 class="black">New Work</h3>
+                <p class="white"><span class="black-bg">Kids Rings</span></p>
+            </div>
+        </a>
     </div>
     <!-- end : works-item -->
 
@@ -260,17 +249,7 @@
     </div>
     <!-- end : works-item -->
 
-<!-- start : works-item -->
-    <div class="works-item works-item-one-third zoom event fashion">
-            <img alt="" title="" class="img-responsive" src="http://placehold.it/960x960"/>
-            <a  class="venobox" data-type="vimeo" href="http://vimeo.com/75976293">
-                <div class="works-item-inner valign">
-                  <h3 class="black">Lightbox Video</h3>
-                  <p class="white"><span class="black-bg">Category</span></p>
-                </div>
-            </a>
-    </div>
-    <!-- end : works-item -->
+
 
 
 
@@ -335,9 +314,9 @@
      <!-- start : works-item -->
     <div class="works-item works-item-one-third zoom nature portrait">
             <img alt="" title="" class="img-responsive" src="http://placehold.it/960x780"/>
-            <a class="venobox" data-type="vimeo" href="http://vimeo.com/75976293">
+            <a class="venobox" data-type="link" href="#new-work">
                 <div class="works-item-inner valign">
-                  <h3 class="black">Lightbox Video</h3>
+                  <h3 class="black">New work</h3>
                   <p class="white"><span class="black-bg">Category</span></p>
                 </div>
             </a>
@@ -585,6 +564,115 @@
 
   </div>
 </section>
+
+
+    <section class="page-content about" id="new-work">
+        <div class="container">
+            <div class="row">
+
+                <article class="col-md-12 showcase-single-content white-bg">
+                    <div class="row">
+                        <article class="col-md-8 text-left showcase-single-item-wrap white-bg">
+                            <div class="showcase-single-item">
+                                <div class="showcase-single-item-inner text-left">
+                                    <p class="font5"><span class="color-bg black ">Sep 8 / 2014</span></p>
+                                    <h2 class="black add-top-quarter"><span>One Studio</span> - A collection of screenshots from this project.</h2>
+                                    <h5 class="font3 black">09 Photos</h5>
+                                    <h4 class="font5 dark">Category 1 / Category 2</h4>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-md-4 text-left showcase-single-item-wrap white-bg">
+                            <div class="showcase-single-item">
+                                <div class="showcase-single-item-inner text-left">
+                                    <h3 class="sub-heading">About showcase</h3>
+                                    <p class="dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl diam, laoreet quis eros ac, placerat tincidunt neque. Vivamus molestie, nisl eu accumsan elementum, libero neque aliquam nibh, in venenatis velit velit eget nunc. Aliquam non venenatis justo, vitae feugiat urna. Morbi et tempor purus.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="single-project-slider-wrap">
+                            <!-- single-project-slider : starts -->
+                            <ul class="single-project-slider bxslider">
+                                <li>
+                                    <img alt="" title="" src="http://placehold.it/2000x800" />
+                                </li>
+                                <li>
+                                    <img alt="" title="" src="http://placehold.it/2000x800" />
+                                </li>
+                                <li>
+                                    <img alt="" title="" src="http://placehold.it/2000x800" />
+                                </li>
+                                <li>
+                                    <img alt="" title="" src="http://placehold.it/2000x800" />
+                                </li>
+                                <li>
+                                    <img alt="" title="" src="http://placehold.it/2000x800" />
+                                </li>
+                                <li>
+                                    <img alt="" title="" src="http://placehold.it/2000x800" />
+                                </li>
+                            </ul>
+                            <!-- single-project-slider : ends -->
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="row showcase-thumb-strip zoom">
+                        <article class="col-md-6 no-pad">
+                            <a class="venobox" data-gall="portfolio-gallery" href="http://placehold.it/2000x800">
+                                <img alt="" title="" class="img-responsive" src="http://placehold.it/2000x800" />
+                            </a>
+                        </article>
+                        <article class="col-md-6 no-pad zoom">
+                            <a class="venobox" data-gall="portfolio-gallery" href="http://placehold.it/2000x800">
+                                <img alt="" title="" class="img-responsive" src="http://placehold.it/2000x800" />
+                            </a>
+                        </article>
+
+                    </div>
+
+
+                    <div class="row showcase-thumb-strip">
+                        <article class="col-md-6 no-pad zoom">
+                            <a class="venobox" data-gall="portfolio-gallery" href="http://placehold.it/2000x800">
+                                <img alt="" title="" class="img-responsive" src="http://placehold.it/2000x800" />
+                            </a>
+                        </article>
+                        <article class="col-md-6 no-pad zoom">
+                            <a class="venobox" data-gall="portfolio-gallery" href="http://placehold.it/2000x800">
+                                <img alt="" title="" class="img-responsive" src="http://placehold.it/2000x800" />
+                            </a>
+                        </article>
+
+                    </div>
+
+
+
+
+                    <div class="row showcase-thumb-strip zoom">
+                        <article class="col-md-6 no-pad">
+                            <a class="venobox" data-gall="portfolio-gallery" href="http://placehold.it/2000x800">
+                                <img alt="" title="" class="img-responsive" src="http://placehold.it/2000x800" />
+                            </a>
+                        </article>
+                        <article class="col-md-6 no-pad zoom">
+                            <a class="venobox" data-gall="portfolio-gallery" href="http://placehold.it/2000x800">
+                                <img alt="" title="" class="img-responsive" src="http://placehold.it/2000x800" />
+                            </a>
+                        </article>
+                    </div>
+
+
+                </article>
+            </div>
+        </div>
+    </section>
   
 </div> 
 
@@ -604,6 +692,8 @@
 <script src="javascripts/libs/equalheights.js"></script> 
 <script src="javascripts/libs/isotope.js"></script>
 <script src="javascripts/libs/venobox.min.js"></script>
+    <!-- from featured-single --> 
+    <script src="javascripts/libs/jquery.bxslider.min.js"></script>
 
 <!-- JS Custom Codes --> 
 <script src="javascripts/custom/navmenu-init.js" ></script> 
@@ -611,6 +701,20 @@
 <script src="javascripts/custom/isotope-init.js"></script> 
 <script src="javascripts/custom/venobox-init.js"></script>
 <script src="javascripts/custom/main.js" ></script> 
+
+    <script>
+
+    $(document).ready(function () {
+        $('.bxslider').bxSlider({
+            preloadImages: 'visible',
+            touchEnabled: true,
+            responsive: true,
+            pager: false,
+            controls: true
+        });
+    });
+
+    </script>
 
 </body>
 </html>
