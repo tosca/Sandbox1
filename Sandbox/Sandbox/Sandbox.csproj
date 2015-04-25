@@ -181,6 +181,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -250,6 +253,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="featured-scribble.html" />
     <Content Include="featured-single.html" />
     <Content Include="fonts\fonts.css" />
     <Content Include="Global.asax" />
@@ -366,6 +370,7 @@
     <Content Include="stylesheets\isotope.css" />
     <Content Include="stylesheets\jquery.bxslider.css" />
     <Content Include="stylesheets\jquery.tweet.css" />
+    <Content Include="stylesheets\main-bg.css" />
     <Content Include="stylesheets\main-responsive.css" />
     <Content Include="stylesheets\main-retina.css" />
     <Content Include="stylesheets\main.css" />
