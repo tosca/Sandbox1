@@ -22,13 +22,19 @@ body{
 }
 
 .custom-overlay {
-    width: 700px;
+    width: 600px;
     display: block !important;
+    z-index: 999;
+
 }
 .custom-overlay-6  {
     width:480px;
+    display: block !important;
+    z-index: 999;
 }
-
+.section-show {
+    display: block !important;
+}
 .relativo{
     float: left;
     width: 100%;
@@ -270,8 +276,8 @@ body{
 }
 /* ------- inline window ------ */
 .vbox-inline{
-    width: 420px;
-   width: 100%;
+    width: 100%;
+   /*width: 100%;*/
     height: 315px;
     height: auto;
     padding: 10px;

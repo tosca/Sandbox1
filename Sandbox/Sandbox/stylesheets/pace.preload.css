@@ -1,4 +1,4 @@
-.pace {
+/*.pace {
   -webkit-pointer-events: none;
   pointer-events: none;
   -webkit-user-select: none;
@@ -7,7 +7,7 @@
 }
 
 .pace .pace-progress {
-  /*background-color: #fff;*/
+  background-color: #fff;
   height: 10px;
   position: fixed;
   z-index: 999;
@@ -49,4 +49,4 @@
 
 .pace-done .pace{
   display: none;
-}
+}*/

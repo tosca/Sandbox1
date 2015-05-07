@@ -1,51 +1,7 @@
 /*MAIN-BG.CSS*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*This is main CSS file that intializes BG Images used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: EIGHT.*/
-/* Author: Designova.*/
-/* Website: http://www.designova.net */
-/* Copyright: (C) 2014 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 
-
-/*--------------------------------------------------------------*/
-/* INTRO / HOME VARIANTS */
-/*--------------------------------------------------------------*/
-
-/*INTRO-01*/
-.showcase-panel-bg-01{
-	background-image: url('http://placehold.it/2000x1250');
-}
-.showcase-panel-bg-02{
-	background-image: url('http://placehold.it/2000x1250');
-}
-.showcase-panel-bg-03{
-	background-image: url('http://placehold.it/2000x1250');
-}
-.showcase-panel-bg-04{
-	background-image: url('http://placehold.it/2000x1250');
-}
-.showcase-panel-bg-05{
-	background-image: url('http://placehold.it/2000x1250');
-}
-
-/*INTRO-03*/
-.intro-03-bg{
-	background-image: url('http://placehold.it/2000x1250');
-}
-
-/*INTRO-05*/
-.intro-05-bg{
-	background-image: url('http://placehold.it/2000x1250');
-}
-
-
-/*--------------------------------------------------------------*/
-/* PAGES AND SECTIONS */
-/*--------------------------------------------------------------*/
-
-/*showcaseS*/
 .showcase-01{
 	background-image: url('http://placehold.it/2000x1250');
 }

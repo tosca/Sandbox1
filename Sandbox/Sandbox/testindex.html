@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <title>Natalie Macellaio \ Metal Artist</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Natallie Macellaio is a Silversmith and Metal Artist working and teaching near Dallas, Texas">
+<meta content='all' name='robots'>
+<meta name="description" content="Natallie Macellaio is a Silversmith and Metal Artist working and teaching near Dallas, Texas">
 <meta name="author" content="tosca ragnini">
 
 <!-- Standard Favicon--> 
@@ -49,7 +50,6 @@
 <!-- LESS JS engine-->
 <script src="less/less-2.0.0.min.js"></script>
 
-<!-- Google Web Fonts-->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700%7CCrimson+Text:400,700,400italic,700italic%7CLekton:400,700' rel='stylesheet' type='text/css'>
 
  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -98,13 +98,13 @@
           <ul class="main-nav-menu main-nav-menu-effect">
 
               <li class="trigger-sub-nav">
-                  <a class="main-nav-link" href="index.html">home</a>                 
+                  <a class="main-nav-link" href="#home">home</a>                 
               </li>  
 
               <li class="trigger-sub-nav">
                   <a class="main-nav-link" href="#">work</a>
                   <div class="sub-nav">
-                    <a href="#scribbles">Scribbles</a>
+                    <a href="#scribbles" class="section-show">Scribbles</a>
                     <a href="#kidsrings">Kids Rings</a>
                   </div>
               </li>  
@@ -123,8 +123,8 @@
               <li class="trigger-sub-nav">
                   <a class="main-nav-link" href="#">about</a>
                   <div class="sub-nav">
-                    <a href="about.html">my bio</a>
-                    <a href="contact.html">contact me</a>
+                    <a href="#about">my bio</a>
+                    <a href="#contact">contact me</a>
                   </div>
               </li>  
             </ul>
@@ -144,7 +144,7 @@
 <nav class="mobile-nav hidden-lg">
             <ul class="slimmenu">
               <li>
-                  <a class="sub-collapser" href="index.html">home</a>                  
+                  <a class="sub-collapser" href="#home">home</a>                  
               </li> 
    
               <li>
@@ -167,8 +167,8 @@
               <li>
                   <a class="sub-collapser" href="">about</a>
                   <ul>
-                  <li><a class="font2 black ease" href="about.html">my bio</a></li>
-                  <li><a class="font2 black ease" href="contact.html">contact me</a></li>
+                  <li><a class="font2 black ease" href="#about">my bio</a></li>
+                  <li><a class="font2 black ease" href="#contact">contact me</a></li>
                   </ul>
               </li> 
             </ul>
@@ -178,19 +178,15 @@
 
     <div class="mastwrap">
 
-        <section class="intro-02-wrap">
+        <section class="intro-02-wrap page-section" id="home">
             <div class="container-fluid">
-
-
                 <div class="row">
-
                     <div id="works-container" class="works-container white-bg clearfix">
-
 
                         <!-- start : works-item-scribbles -->
                         <div class="works-item works-item-one-third zoom">
-                            <img alt="" class="img-responsive" src="images/scribbles/scrib-01.jpg" />
-                            <a class="venobox" data-gall="portfolio-gallery" data-type="inline" title="Scribbles Collection" href="#scribbles">
+                            <img alt="scribbles collection" class="img-responsive" src="images/scribbles/scrib-01.jpg" />
+                            <a class="venobox" data-gall="portfolio-gallery" data-type="inline" href="#scribbles">
                                 <div class="works-item-inner valign">
                                     <h3 class="black">New Work</h3>
                                     <p class="white"><span class="black-bg">Scribbles</span></p>
@@ -200,8 +196,8 @@
                         <!-- end : works-item-kidsrings -->
                         <!-- start : works-item -->
                         <div class="works-item works-item-one-third zoom">
-                            <img alt="" class="img-responsive" src="images/kidsrings/kring-01.jpg" />
-                            <a class="venobox" data-css="custom-overlay" data-type="inline" title="" href="#kidsrings">
+                            <img alt="kids rings collection" class="img-responsive" src="images/kidsrings/kring-01.jpg" />
+                            <a class="venobox" data-gall="portfolio-gallery" data-css="custom-overlay" data-type="inline" href="#kidsrings">
                                 <div class="works-item-inner valign">
                                     <h3 class="black">New Work</h3>
                                     <p class="white"><span class="black-bg">Kids Rings</span></p>
@@ -211,8 +207,8 @@
                         <!-- end : works-item -->
                         <!-- start : works-item  -->
                         <div class="works-item works-item-one-third zoom">
-                            <img alt="New Work" title="Yellow and Blue" class="img-responsive" src="images/scribbles/scrib-02.jpg" />
-                            <a class="venobox" data-gall="portfolio-gallery" title="" href="images/scribbles/scrib-02.jpg">
+                            <img alt="New Work" class="img-responsive" src="images/scribbles/scrib-02.jpg" />
+                            <a class="venobox" data-gall="portfolio-gallery" title="Yellow and Blue" href="images/scribbles/scrib-02.jpg">
                                 <div class="works-item-inner valign">
                                     <h3 class="black">New Work</h3>
                                     <p class="white"><span class="black-bg">Toddler Scribbles</span></p>
@@ -223,7 +219,7 @@
                         <!-- start : works-item the motherload project-->
                         <div class="works-item works-item-one-third zoom">
                             <img alt="Collaborations" title="The Motherload Project" class="img-responsive" src="images/motherload/motherload-02.jpg" />
-                            <a class="venobox" data-css="custom-overlay" data-type="inline" href="#motherload">
+                            <a class="venobox" data-gall="portfolio-gallery" data-css="custom-overlay" data-type="inline" data-slide-index="#motherload" href="#motherload">
                                 <div class="works-item-inner valign">
                                     <h3 class="black">Collaborations</h3>
                                     <p class="white"><span class="black-bg">The Motherload Project</span></p>
@@ -244,7 +240,7 @@
 
 
         <!-- About Section -->
-        <section class="page-content about">
+        <section class="page-section" id="about">
             <div class="container">
                 <div class="row">
                     <article class="col-md-6 about-content-split text-center common-pad softwhite-bg">
@@ -315,7 +311,7 @@
         </section>
 
         <!-- The Motherload Project Section -->
-        <section class="page-content about" id="motherload">
+        <section class="page-section" style="display:none;" id="motherload">
             <div class="container">
                 <div class="row">
 
@@ -326,7 +322,7 @@
                                     <div class="showcase-single-item-inner text-left">
                                         <p class="font5"><span class="color-bg black "></span></p>
                                         <h2 class="black add-top-quarter"><span>The Mother Load Project</span> A network of professional artists, who are also mothers</h2>
-                                        <h5 class="font3 black"><a href="http://www.themotherload.org/">www.themotherload.org</a></h5>
+                                        <h5 class="font3 black"><a href="http://www.themotherload.org/" target="_blank">www.themotherload.org</a></h5>
                                         <h4 class="font5 dark">Founded by artists and mothers Lesli Robertson and Natalie Macellaio</h4>
                                     </div>
                                 </div>
@@ -342,7 +338,7 @@
 
                         </div>
 
-                        <div class="row">
+                        <div class="row" >
                             <div class="single-project-slider-wrap">
                                 <!-- single-project-slider : starts -->
                                 <ul class="single-project-slider bxslider">
@@ -375,7 +371,7 @@
         </section>
 
         <!-- Contact Section -->        
-            <section class="page-content contact">
+            <section class="page-content" id="contact">
                 <div class="container">
                     <div class="row">
                         <article class="col-md-6 contact-content-split fullheight text-left common-pad pad-top pad-bottom">
@@ -428,7 +424,7 @@
 
  
             <!-- start : New-work Scribble Project //////////////-->
-        <section class="page-content" style="display:none" id="scribbles">
+        <section class="page-section" style="display:none" id="scribbles">
             <div class="container">
                 <div class="row">
 
@@ -469,8 +465,8 @@
        
 
         <!-- start : New-work Kids Rings Project //////////////////////////-->
-        <section class="page-content">
-            <div class="container" style="display:none" id="kidsrings">
+        <section class="page-section" style="display:none" id="kidsrings">
+            <div class="container">
                 <div class="row">
                     <article class="col-md-12 showcase-single-content white-bg">
                         <div class="row">
@@ -498,17 +494,17 @@
                         <div class="row showcase-thumb-strip zoom">
                             <article class="col-md-6">
                                 <img alt="Natalie Macellaio - Fina's Ring" title="Fina's Ring" class="img-responsive custom-overlay-6 " src="images/kidsrings/kring-01.jpg" />
-                                  </article>
+                            </article>
                             <article class="col-md-6">
-                                   <img alt="Natalie Macellaio - Fina's Ring Detail" title="Fina's Ring Detail" class="img-responsive custom-overlay-6" src="images/kidsrings/kring-02.jpg" />
+                                <img alt="Natalie Macellaio - Fina's Ring Detail" title="Fina's Ring Detail" class="img-responsive custom-overlay-6" src="images/kidsrings/kring-02.jpg" />
                             </article>
                         </div>
                         <div class="row showcase-thumb-strip zoom">
                             <article class="col-md-6">
                                 <img alt="Natalie Macellaio - Milo's Ring" title="Milo's Ring" class="img-responsive custom-overlay-6" src="images/kidsrings/kring-03.jpg" />
-                                 </article>
+                            </article>
                             <article class="col-md-6">
-                                  <img alt="Natalie Macellaio - Milo's Ring Detail" title="Milo's Ring Detail" class="img-responsive custom-overlay-6" src="images/kidsrings/kring-04.jpg" />
+                                <img alt="Natalie Macellaio - Milo's Ring Detail" title="Milo's Ring Detail" class="img-responsive custom-overlay-6" src="images/kidsrings/kring-04.jpg" />
                             </article>
                         </div>
                         <div class="row showcase-thumb-strip zoom">
@@ -555,7 +551,7 @@
 
     <script>
 
-    $(document).ready(function () {
+   $(document).ready(function () {
         $('.bxslider').bxSlider({
             preloadImages: 'visible',
             touchEnabled: true,

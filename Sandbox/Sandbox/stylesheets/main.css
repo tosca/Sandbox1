@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6{
 /*Common Spacing and Padding*/
 
 .page-section{
-	padding: 100px 0;
+	padding: 70px 0;
 }
 .separator-section{
 	padding: 100px 0;
@@ -417,12 +417,45 @@ h1,h2,h3,h4,h5,h6{
 .btn-eight-color:hover{
 	color: #fff;
 }
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 04 - PAGES & SECTIONS SETUP */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
-/*showcaseS*/
+/*MAIN-BG.CSS*/
+/*--------------------------------------------------*/
+.showcase-01{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-02{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.showcase-03{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.coverflow-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-01{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-02{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-03{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-04{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-05{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.cover-06{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.contact-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+.about-bg{
+	background-image: url('http://placehold.it/2000x1250');
+}
+/* ====04 - PAGES & SECTIONS SETUP */
 .showcase-carousel{
 	cursor: url("../images/drag.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
@@ -574,10 +607,6 @@ h1,h2,h3,h4,h5,h6{
 	font-style: italic;
 	padding: 3px;
 }
-
-
-
-
 /* WORKS*/
 .works-filter-wrap{
 	padding: 40px 0;
@@ -767,15 +796,11 @@ h1,h2,h3,h4,h5,h6{
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
-
-
-/*CONTACT*/
 .contact-bg{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
-
 .contact .promo-caps{
 	font-size: 20px;
 	line-height: 30px;
