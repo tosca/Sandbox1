@@ -283,6 +283,7 @@
     <Content Include="images\kidsrings\kring-05.jpg" />
     <Content Include="images\loader.gif" />
     <Content Include="images\logo.png" />
+    <Content Include="images\logo.svg" />
     <Content Include="images\motherload\motherload-01%402x.jpg" />
     <Content Include="images\motherload\motherload-01.jpg" />
     <Content Include="images\motherload\motherload-02%402x.jpg" />

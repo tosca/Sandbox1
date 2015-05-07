@@ -15,11 +15,7 @@ namespace Sandbox
             routes.IgnoreRoute("{*favicon}", new { favicon = @"(.*/)?favicon.ico(/.*)?" });
             routes.IgnoreRoute("{folder}/{*pathInfo}", new { folder = "Content" });
 
-            routes.MapRoute(
-               "Default",
-               "{controller}/{action}/{id}",
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            
 
             routes.MapRoute(
                "Index",
@@ -57,7 +53,11 @@ namespace Sandbox
                new { controller = "Home", action = "Contact" }
                );
 
-            
+            routes.MapRoute(
+               "Default",
+               "{controller}/{action}/{id}",
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }
