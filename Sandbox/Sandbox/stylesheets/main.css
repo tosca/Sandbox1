@@ -88,7 +88,6 @@ h1,h2,h3,h4,h5,h6{
 .remove-pad-bottom{
 	padding-bottom: 0;
 }
-
 .mob-center > .img-responsive{
 	display: inline-block;
 }
@@ -114,7 +113,6 @@ h1,h2,h3,h4,h5,h6{
 	background:url(../images/poster.jpg) center center no-repeat !important;
 	background-size: cover !important;
 }
-/*Sticky Panels*/
 .sticky-panel{
 	position: fixed;
 	z-index: 999;
@@ -135,10 +133,6 @@ h1,h2,h3,h4,h5,h6{
 	width: 100%;
 	height: 20px;
 }
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 02 - HEADER, INTRO & NAVIGATION */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 .masthead{
 	position: fixed;
 	width: 400px;
@@ -265,7 +259,6 @@ h1,h2,h3,h4,h5,h6{
 .sub-nav a:last-child:after{
     display: none;
 }
-
 .social-wrap{
     list-style: none;
     padding: 0;
@@ -303,11 +296,6 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 12px;
 	line-height: 19px;
 }
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 03 - COMMON ELEMENTS & TYPOGRAPHY */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
 .sub-heading{
 	font-size: 18px;
 	line-height: 25px;
@@ -316,8 +304,6 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 200;
 	margin-bottom: 10px;
 }
-
-/*Buttons*/
 .btn-eight{
 	border-radius: 0px;
 	text-decoration: none;
@@ -363,7 +349,6 @@ h1,h2,h3,h4,h5,h6{
 	background: #fff;
 	color: #000;
 }
-
 .btn-eight-dark{
 	border:solid 2px #000;
 	background: transparent;
@@ -374,15 +359,12 @@ h1,h2,h3,h4,h5,h6{
 	background: #000;
 	color: #fff;
 }
-
 .btn-eight-color{
 	background: transparent;
 }
 .btn-eight-color:hover{
 	color: #fff;
 }
-/*MAIN-BG.CSS*/
-/*--------------------------------------------------*/
 .showcase-01{
 	background-image: url('http://placehold.it/2000x1250');
 }
@@ -416,10 +398,6 @@ h1,h2,h3,h4,h5,h6{
 .contact-bg{
 	background-image: url('http://placehold.it/2000x1250');
 }
-.about-bg{
-	background-image: url('http://placehold.it/2000x1250');
-}
-/* ====04 - PAGES & SECTIONS SETUP */
 .showcase-carousel{
 	cursor: url("../images/drag.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
@@ -473,14 +451,12 @@ h1,h2,h3,h4,h5,h6{
 	border:solid 5px;
 	padding: 15px 15px 15px 23px;
 }
-
-/*ABOUT*/
 .about-bg{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+    background-image: url('http://placehold.it/2000x1250');
 }
-
 .about .promo-caps{
 	font-size: 28px;
 	line-height: 38px;
@@ -520,8 +496,6 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 55px;
 	font-weight: 800;
 }
-
-/*NEWS*/
 .news-content{
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -533,20 +507,17 @@ h1,h2,h3,h4,h5,h6{
  	font-size: 24px;
  	line-height: 31px;
  	margin-top: 20px;
-        }
+}
  .news-item h2{ 
  	font-size: 36px;
  	line-height: 43px;
-        }
-        .news-item h3{ 
-        }
-        .news-item p > span{  
-            font-size: 18px;
-            line-height: 25px;
-            padding: 12px;
-            text-transform: uppercase;
-        }
-
+}
+.news-item p > span{  
+    font-size: 18px;
+    line-height: 25px;
+    padding: 12px;
+    text-transform: uppercase;
+}
 .news-post-content{
 	padding-top: 40px;
 	padding-bottom: 0px;
@@ -571,7 +542,6 @@ h1,h2,h3,h4,h5,h6{
 	font-style: italic;
 	padding: 3px;
 }
-/* WORKS*/
 .works-filter-wrap{
 	padding: 40px 0;
 	margin-top: 80px;
@@ -690,8 +660,6 @@ h1,h2,h3,h4,h5,h6{
             line-height: 21px;
             padding: 7px;
         }
-
-/*showcaseS*/
 .showcase-single-item-wrap{
 	padding: 50px;
 }
