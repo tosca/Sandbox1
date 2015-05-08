@@ -141,6 +141,7 @@ h1,h2,h3,h4,h5,h6{
 	top: 0;
 	z-index: 1000;
 	background-position: center center;
+    background-color: rgba(243, 243, 243, 0.9);
 	background-size: cover;
 	-webkit-transition: all 1.2s ease-in-out;
 	   -moz-transition: all 1.2s ease-in-out;
@@ -180,14 +181,17 @@ h1,h2,h3,h4,h5,h6{
 }
 .nav-bio{
 	margin-top: 20px;
-	margin-right: 100px;
+	margin-right: 60px;
 	margin-left: 80px;
+    text-transform:uppercase;
 }
 .nav-bio h4>span{
-	font-size: 14px;
-	line-height: 26px;
-	letter-spacing: 2px;
+	font-size: 17px;
+	line-height: 30px;
+	letter-spacing: 4px;
 	padding: 1px;
+    color: #61559F;
+    font-weight:500;
 }
 .nav-item-wrap{
 	margin-top: 40px;

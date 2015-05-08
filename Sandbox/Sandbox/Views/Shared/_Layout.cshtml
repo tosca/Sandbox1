@@ -44,7 +44,7 @@
         <div class="sticky-panel sticky-panel-bottom white-bg"></div>
         <header class="masthead visible-lg white-bg">
             <div class="main-logo-wrap">
-                <img alt="" title="" src="~/images/logo.png" />
+                <a href="~/Index"> <img alt="Natalie Macellaio - Metal Artist, logo" title="Natalie Macellaio - Metal Artist, logo" src="~/images/logo.png" /></a>
             </div>
             <div class="main-nav">
                 <div class="mobile-toggle">
@@ -53,88 +53,90 @@
                     <span></span>
                 </div>
             </div>
-            <img alt="" title="" class="side-logo" src="~/images/side-logo.png" />
-            <div class="nav-bio">
-                <h4><span class="black color-bg font5">Natalie Macellaio 3D Metal Sculptor</span></h4>
-            </div>
-            <nav class="nav-item-wrap">
-                <ul class="main-nav-menu main-nav-menu-effect">
+            <a href="~/Index"><img alt="Natalie Macellaio - Metal Artist, logo" title="Natalie Macellaio - Metal Artist, logo" class="side-logo" src="~/images/side-logo.png" /></a>
+                <div class="nav-bio">
+                    <h4><span class="color font1">Natalie Macellaio <br />3D Metal Sculptor</span></h4>
+                </div>
+                <nav class="nav-item-wrap">
+                    <ul class="main-nav-menu main-nav-menu-effect">
 
-                    <li class="trigger-sub-nav">
-                        <a class="main-nav-link" href="~/Index">home</a>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="~/Index">home</a>
+                        </li>
+
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="#">work</a>
+                            <div class="sub-nav">
+                                <a href="~/Scribbles">Scribbles</a>
+                                <a href="~/Kids-Rings">Kids-Rings</a>
+                            </div>
+                        </li>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="#">collaborations</a>
+                            <div class="sub-nav">
+                                <a href="~/The-Mother-Load-Project">The Motherload Project</a>
+                                <a href="#wannabe">Wannabe</a>
+                                <a href="#petite">Petite Show</a>
+                                <a href="#merger">The Merger</a>
+                                <a href="#trestle">Trestle Designs</a>
+                            </div>
+                        </li>
+                        <li class="trigger-sub-nav">
+                            <a class="main-nav-link" href="">about</a>
+                            <div class="sub-nav">
+                                <a href="#about">my bio</a>
+                                <a href="#contact">contact me</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- social icons-->
+                <ul class="social-wrap">
+                    <li><a href="#"><img alt="" title="" src="~/images/social/01.png" /></a></li>
+                </ul>
+
+        </header>
+
+        @RenderBody()
+
+        <div class="mastwrap">
+            <!-- mobile only navigation : starts -->
+            <nav class="mobile-nav hidden-lg">
+                <ul class="slimmenu">
+                    <li>
+                        <a class="sub-collapser" href="~/Index">home</a>
                     </li>
 
-                    <li class="trigger-sub-nav">
-                        <a class="main-nav-link" href="#">work</a>
-                        <div class="sub-nav">
-                            <a href="~/Scribbles">Scribbles</a>
-                            <a href="~/Kids-Rings">Kids-Rings</a>
-                        </div>
+                    <li>
+                        <a class="sub-collapser" href="">work</a>
+                        <ul>
+                            <li><a class="font2 black ease" href="~/Scribbles">Scribbles</a></li>
+                            <li><a class="font2 black ease" href="~/Kids-Rings">Kids Rings</a></li>
+                        </ul>
                     </li>
-                    <li class="trigger-sub-nav">
-                        <a class="main-nav-link" href="#">collaborations</a>
-                        <div class="sub-nav">
-                            <a href="~/The-Mother-Load-Project">The Motherload Project</a>
-                            <a href="#wannabe">Wannabe</a>
-                            <a href="#petite">Petite Show</a>
-                            <a href="#merger">The Merger</a>
-                            <a href="#trestle">Trestle Designs</a>
-                        </div>
+                    <li>
+                        <a class="sub-collapser" href="">collaborations</a>
+                        <ul>
+                            <li><a class="font2 black ease" href="~/The-Mother-Load-Project">The Motherload Project</a></li>
+                            <li><a class="font2 black ease" href="#wannabe">Wannabe</a></li>
+                            <li><a class="font2 black ease" href="#petite">Petite Show</a></li>
+                            <li><a class="font2 black ease" href="#merger">The Merger</a></li>
+                            <li><a class="font2 black ease" href="#trestle">Trestle Designs</a></li>
+                        </ul>
                     </li>
-                    <li class="trigger-sub-nav">
-                        <a class="main-nav-link" href="#">about</a>
-                        <div class="sub-nav">
-                            <a href="#about">my bio</a>
-                            <a href="#contact">contact me</a>
-                        </div>
+                    <li>
+                        <a class="sub-collapser" href="">about</a>
+                        <ul>
+                            <li><a class="font2 black ease" href="#about">my bio</a></li>
+                            <li><a class="font2 black ease" href="#contact">contact me</a></li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
 
-            <!-- social icons-->
-            <ul class="social-wrap">
-                <li><a href="#"><img alt="" title="" src="~/images/social/01.png" /></a></li>
-            </ul>
 
 
-        </header>
-
-        <!-- mobile only navigation : starts -->
-        <nav class="mobile-nav hidden-lg">
-            <ul class="slimmenu">
-                <li>
-                    <a class="sub-collapser" href="/Index">home</a>
-                </li>
-
-                <li>
-                    <a class="sub-collapser" href="">work</a>
-                    <ul>
-                        <li><a class="font2 black ease" href="/Scribbles">Scribbles</a></li>
-                        <li><a class="font2 black ease" href="/Kids-Rings">Kids Rings</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="sub-collapser" href="">collaborations</a>
-                    <ul>
-                        <li><a class="font2 black ease" href="/The-Mother-Load-Project">The Motherload Project</a></li>
-                        <li><a class="font2 black ease" href="#wannabe">Wannabe</a></li>
-                        <li><a class="font2 black ease" href="#petite">Petite Show</a></li>
-                        <li><a class="font2 black ease" href="#merger">The Merger</a></li>
-                        <li><a class="font2 black ease" href="#trestle">Trestle Designs</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="sub-collapser" href="">about</a>
-                    <ul>
-                        <li><a class="font2 black ease" href="#about">my bio</a></li>
-                        <li><a class="font2 black ease" href="#contact">contact me</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div class="mastwrap">
-     
-            @RenderBody()
 
             <footer>
                 <div class="add-top-quarter">

@@ -319,7 +319,6 @@
     <Content Include="less\fonts.less" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="less\less-2.0.0.min.js" />
-    <Content Include="testindex.html" />
     <Content Include="javascripts\custom\coverflow-init.js" />
     <Content Include="javascripts\custom\equalheights-init.js" />
     <Content Include="javascripts\custom\featured-init.js" />
@@ -394,7 +393,6 @@
     <Content Include="stylesheets\isotope.css" />
     <Content Include="stylesheets\jquery.bxslider.css" />
     <Content Include="stylesheets\jquery.tweet.css" />
-    <Content Include="stylesheets\main-bg.css" />
     <Content Include="stylesheets\main-responsive.css" />
     <Content Include="stylesheets\main-retina.css" />
     <Content Include="stylesheets\main.css" />
