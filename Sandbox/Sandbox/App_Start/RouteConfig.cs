@@ -36,6 +36,60 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+               "Piercing-Pieces",
+               "Piercing-Pieces",
+               new { controller = "Home", action = "PiercingPieces" }
+               );
+
+            routes.MapRoute(
+               "New-Work",
+               "New-Work",
+               new { controller = "Home", action = "NewWork" }
+               );
+
+            routes.MapRoute(
+               "Resin-Balls",
+               "Resin-Balls",
+               new { controller = "Home", action = "ResinBalls" }
+               );
+
+            routes.MapRoute(
+               "Bump",
+               "Bump",
+               new { controller = "Home", action = "Bump" }
+               );
+
+            routes.MapRoute(
+               "Brood",
+               "Brood",
+               new { controller = "Home", action = "Brood" }
+               );
+
+            routes.MapRoute(
+               "Bulge",
+               "Bluge",
+               new { controller = "Home", action = "Bluge" }
+               );
+
+            routes.MapRoute(
+               "Boiling-Over",
+               "Boiling-Over",
+               new { controller = "Home", action = "BoilingOver" }
+               );
+
+            routes.MapRoute(
+               "Roach-Study",
+               "Roach-Study",
+               new { controller = "Home", action = "RoachStudy" }
+               );
+
+            routes.MapRoute(
+               "Crack",
+               "Crack",
+               new { controller = "Home", action = "Crack" }
+               );
+
+            routes.MapRoute(
                "The-Mother-Load-Project",
                "The-Mother-Load-Project",
                new { controller = "Home", action = "TheMotherLoadProject" }

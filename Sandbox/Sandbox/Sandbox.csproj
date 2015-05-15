@@ -448,9 +448,6 @@
     <Content Include="twitter\2a16116a4467cfccff2e6ed13e372dbc.json" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\KidsRings.cshtml">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="Views\Home\Index.cshtml">
       <SubType>Code</SubType>
     </Content>
@@ -469,9 +466,20 @@
     </Content>
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_InternalPageLayout.cshtml" />
+    <Content Include="Views\Home\NewWork.cshtml" />
+    <Content Include="Views\Home\PiercingPieces.cshtml" />
+    <Content Include="Views\Home\KidsRings.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\boilingover\" />
+    <Folder Include="images\brood\" />
+    <Folder Include="images\bulge\" />
+    <Folder Include="images\bump\" />
+    <Folder Include="images\crack\" />
+    <Folder Include="images\newwork\" />
+    <Folder Include="images\resinballs\" />
+    <Folder Include="images\roachstudy\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
