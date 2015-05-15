@@ -15,10 +15,10 @@ namespace Sandbox.Controllers
         {
             return View();
        }
-        public ActionResult Scribbles()
+    
+       public ActionResult Scribbles()
         {
-
-            return View();
+           return View();
         }
         public ActionResult KidsRings()
         {

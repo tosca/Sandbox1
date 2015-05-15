@@ -40,7 +40,7 @@ body{
 }
 /* ----- preloader - choose between CIRCLE, IOS, DOTS, QUADS ----- */
 
-/* circle preloader */
+/* circle preloader
 .vbox-preloader{
     position:fixed; 
     width:32px; 
@@ -77,9 +77,9 @@ body{
 @keyframes playload {
    from { background-position:    0px; }
      to { background-position: -576px; }
-}
+} */
 /* IOS preloader */
-/*
+
 .vbox-preloader{
     position:fixed; 
     width:32px; 
@@ -118,7 +118,7 @@ body{
    from { background-position:    0px; }
      to { background-position: -384px; }
 }
-*/
+
 /* dots preloader */
 /*
 .vbox-preloader{
@@ -160,7 +160,6 @@ body{
      to { background-position: -768px; }
 }
 */
-/* quads preloader */
 /*
 .vbox-preloader{
     position:fixed; 
@@ -198,8 +197,8 @@ body{
 @keyframes playload {
    from { background-position:    0px; }
      to { background-position: -384px; }
-}
-*/
+}*/
+
 /* ----- navigation ----- */
 .vbox-close{
     cursor: pointer;
@@ -284,8 +283,8 @@ body{
 /* ------- Video & iFrames window ------ */
 .venoframe{
     border: none;
-    width: 960px;
-    height: 720px;
+    width: 100%;
+    height: 800px;
 }
 @media (max-width: 992px) {
     .venoframe{
@@ -306,6 +305,7 @@ body{
     .venoframe{
         width: 100%;
         height: 260px;
+        height: 350px;
     }
 }
 

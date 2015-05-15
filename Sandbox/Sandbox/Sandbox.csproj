@@ -262,6 +262,8 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="images\about\profile%402x.jpg" />
+    <Content Include="images\about\profile.jpg" />
     <Content Include="images\bxslider\next%402x.png" />
     <Content Include="images\bxslider\next.png" />
     <Content Include="images\bxslider\prev%402x.png" />
@@ -294,6 +296,20 @@
     <Content Include="images\motherload\motherload-04.jpg" />
     <Content Include="images\motherload\motherload-05%402x.jpg" />
     <Content Include="images\motherload\motherload-05.jpg" />
+    <Content Include="images\piercing\piercing-01%402x.jpg" />
+    <Content Include="images\piercing\piercing-01.jpg" />
+    <Content Include="images\piercing\piercing-02%402x.jpg" />
+    <Content Include="images\piercing\piercing-02.jpg" />
+    <Content Include="images\piercing\piercing-03%402x.jpg" />
+    <Content Include="images\piercing\piercing-03.jpg" />
+    <Content Include="images\piercing\piercing-04%402x.jpg" />
+    <Content Include="images\piercing\piercing-04.jpg" />
+    <Content Include="images\piercing\piercing-05%402x.jpg" />
+    <Content Include="images\piercing\piercing-05.jpg" />
+    <Content Include="images\piercing\piercing-06%402x.jpg" />
+    <Content Include="images\piercing\piercing-06.jpg" />
+    <Content Include="images\piercing\piercing-07%402x.jpg" />
+    <Content Include="images\piercing\piercing-07.jpg" />
     <Content Include="images\scribbles\scrib-01%402x.jpg" />
     <Content Include="images\scribbles\scrib-01.jpg" />
     <Content Include="images\scribbles\scrib-02%402x.jpg" />
@@ -452,6 +468,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_InternalPageLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
