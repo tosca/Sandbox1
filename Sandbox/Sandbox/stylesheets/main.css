@@ -681,22 +681,21 @@ h1,h2,h3,h4,h5,h6{
  	font-weight: 500;
      letter-spacing: 4px;
         }
-        .showcase-single-item h3{ 
+ .showcase-single-item h3{ 
         }
-        .showcase-single-item p > span{  
+.showcase-single-item p > span{  
             font-size: 18px;
             line-height: 25px;
             padding: 12px;
             text-transform: uppercase;
         }
 .showcase-single-content{
-	padding-top: 0px;
-	padding-bottom: 0px;
 	margin-top: 60px;
-    margin-top: 0px;/*tosca*/
+    margin-top: 60px;/*tosca*/
 	margin-bottom: 60px;
-    margin-bottom: 0px;/*tosca*/
-}
+    margin-bottom: 60px;/*tosca*/
+    padding-bottom: 0px;
+    padding-top: 0px;}
 .showcase-single-content h5{
 	font-weight: 600;
 	font-size: 16px;
@@ -725,6 +724,13 @@ h1,h2,h3,h4,h5,h6{
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
+.showcase-thumb-strip a {
+    -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all 0.4s ease-in-out 0s;
+}
 .showcase-thumb-strip a:hover{
 			opacity: 0.4;
             cursor: url("../images/zoom.png") 40 40, crosshair;
@@ -734,6 +740,23 @@ h1,h2,h3,h4,h5,h6{
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
+ .showcase-thumb-strip-inner{
+            text-align: center;
+        }
+        .showcase-thumb-strip-inner h3{ 
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            line-height: 21px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .showcase-thumb-strip-inner p > span{  
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 21px;
+            padding: 7px;
+        }
 .contact-bg{
 	background-repeat: no-repeat;
 	background-position: center center;

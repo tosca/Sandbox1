@@ -64,7 +64,7 @@
 	-webkit-perspective-origin: 50% 50%;
 	-ms-perspective-origin: 50% 50%;
 	perspective-origin: 50% 50%;
-	overflow-y: show;
+	overflow-y:visible;
 }
 .effects ul {
 	-webkit-transform-style: preserve-3d;
