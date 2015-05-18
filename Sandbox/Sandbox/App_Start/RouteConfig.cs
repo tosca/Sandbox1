@@ -67,8 +67,8 @@ namespace Sandbox
 
             routes.MapRoute(
                "Bulge",
-               "Bluge",
-               new { controller = "Home", action = "Bluge" }
+               "Bulge",
+               new { controller = "Home", action = "Bulge" }
                );
 
             routes.MapRoute(

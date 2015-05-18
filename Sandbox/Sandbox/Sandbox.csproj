@@ -264,6 +264,24 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="images\about\profile%402x.jpg" />
     <Content Include="images\about\profile.jpg" />
+    <Content Include="images\brood\brood-01%402x.jpg" />
+    <Content Include="images\brood\brood-01.jpg" />
+    <Content Include="images\brood\brood-02%402x.jpg" />
+    <Content Include="images\brood\brood-02.jpg" />
+    <Content Include="images\brood\brood-03%402x.jpg" />
+    <Content Include="images\brood\brood-03.jpg" />
+    <Content Include="images\bulge\bulge-01%402x.jpg" />
+    <Content Include="images\bulge\bulge-01.jpg" />
+    <Content Include="images\bulge\bulge-02%402x.jpg" />
+    <Content Include="images\bulge\bulge-02.jpg" />
+    <Content Include="images\bulge\bulge-03%402x.jpg" />
+    <Content Include="images\bulge\bulge-03.jpg" />
+    <Content Include="images\bump\bump-01%402x.jpg" />
+    <Content Include="images\bump\bump-01.jpg" />
+    <Content Include="images\bump\bump-02%402x.jpg" />
+    <Content Include="images\bump\bump-02.jpg" />
+    <Content Include="images\bump\bump-03%402x.jpg" />
+    <Content Include="images\bump\bump-03.jpg" />
     <Content Include="images\bxslider\next%402x.png" />
     <Content Include="images\bxslider\next.png" />
     <Content Include="images\bxslider\prev%402x.png" />
@@ -487,13 +505,13 @@
     <Content Include="Views\Home\PiercingPieces.cshtml" />
     <Content Include="Views\Home\KidsRings.cshtml" />
     <Content Include="Views\Home\ResinBalls.cshtml" />
+    <Content Include="Views\Home\Brood.cshtml" />
+    <Content Include="Views\Home\Bulge.cshtml" />
+    <Content Include="Views\Home\Bump.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="images\boilingover\" />
-    <Folder Include="images\brood\" />
-    <Folder Include="images\bulge\" />
-    <Folder Include="images\bump\" />
     <Folder Include="images\crack\" />
     <Folder Include="images\roachstudy\" />
   </ItemGroup>
