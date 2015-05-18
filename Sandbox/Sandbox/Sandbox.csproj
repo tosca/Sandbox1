@@ -284,6 +284,7 @@
     <Content Include="images\kidsrings\kring-05%402x.jpg" />
     <Content Include="images\kidsrings\kring-05.jpg" />
     <Content Include="images\loader.gif" />
+    <Content Include="images\logo%402x.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\logo.svg" />
     <Content Include="images\motherload\motherload-01%402x.jpg" />
@@ -296,6 +297,8 @@
     <Content Include="images\motherload\motherload-04.jpg" />
     <Content Include="images\motherload\motherload-05%402x.jpg" />
     <Content Include="images\motherload\motherload-05.jpg" />
+    <Content Include="images\newwork\pump%402x.jpg" />
+    <Content Include="images\newwork\pump.jpg" />
     <Content Include="images\piercing\piercing-01%402x.jpg" />
     <Content Include="images\piercing\piercing-01.jpg" />
     <Content Include="images\piercing\piercing-02%402x.jpg" />
@@ -310,6 +313,20 @@
     <Content Include="images\piercing\piercing-06.jpg" />
     <Content Include="images\piercing\piercing-07%402x.jpg" />
     <Content Include="images\piercing\piercing-07.jpg" />
+    <Content Include="images\resinballs\resinballs-01%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-01.jpg" />
+    <Content Include="images\resinballs\resinballs-02%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-02.jpg" />
+    <Content Include="images\resinballs\resinballs-03%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-03.jpg" />
+    <Content Include="images\resinballs\resinballs-04%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-04.jpg" />
+    <Content Include="images\resinballs\resinballs-05%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-05.jpg" />
+    <Content Include="images\resinballs\resinballs-06%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-06.jpg" />
+    <Content Include="images\resinballs\resinballs-07%402x.jpg" />
+    <Content Include="images\resinballs\resinballs-07.jpg" />
     <Content Include="images\scribbles\scrib-01%402x.jpg" />
     <Content Include="images\scribbles\scrib-01.jpg" />
     <Content Include="images\scribbles\scrib-02%402x.jpg" />
@@ -469,6 +486,7 @@
     <Content Include="Views\Home\NewWork.cshtml" />
     <Content Include="Views\Home\PiercingPieces.cshtml" />
     <Content Include="Views\Home\KidsRings.cshtml" />
+    <Content Include="Views\Home\ResinBalls.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -477,8 +495,6 @@
     <Folder Include="images\bulge\" />
     <Folder Include="images\bump\" />
     <Folder Include="images\crack\" />
-    <Folder Include="images\newwork\" />
-    <Folder Include="images\resinballs\" />
     <Folder Include="images\roachstudy\" />
   </ItemGroup>
   <ItemGroup>
