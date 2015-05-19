@@ -1,4 +1,4 @@
-/*.pace {
+.pace {
   -webkit-pointer-events: none;
   pointer-events: none;
   -webkit-user-select: none;
@@ -49,4 +49,4 @@
 
 .pace-done .pace{
   display: none;
-}*/
+}
