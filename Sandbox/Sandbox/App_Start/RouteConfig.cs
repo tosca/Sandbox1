@@ -96,15 +96,15 @@ namespace Sandbox
                );
 
             routes.MapRoute(
-               "About-Natalie-Macellaio",
-               "About-Natalie-Macellaio",
-               new { controller = "Home", action = "About" }
+               "about",
+               "about",
+               new { controller = "Home", action = "Index/#about" }
                );
 
             routes.MapRoute(
-               "Contact-Natalie-Macellaio",
-               "Contact-Natalie-Macellaio",
-               new { controller = "Home", action = "Contact" }
+               "contact",
+               "contact",
+               new { controller = "Home", action = "Index/#contact" }
                );
 
             routes.MapRoute(
