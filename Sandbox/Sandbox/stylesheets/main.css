@@ -660,6 +660,7 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 0;
 	border-top: solid 5px;
 	padding-top: 30px;
+    color:gray;
 }
 .showcase-single-content h4{
 	font-weight: 200;
