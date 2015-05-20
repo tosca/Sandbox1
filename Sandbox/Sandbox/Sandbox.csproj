@@ -262,6 +262,8 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="images\about\nat-name%402x.jpg" />
+    <Content Include="images\about\nat-name.jpg" />
     <Content Include="images\about\profile%402x.jpg" />
     <Content Include="images\about\profile-01%402x.jpg" />
     <Content Include="images\about\profile-01.jpg" />

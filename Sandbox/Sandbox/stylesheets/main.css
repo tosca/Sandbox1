@@ -626,6 +626,8 @@ h1,h2,h3,h4,h5,h6{
  .showcase-single-item h2{ 
  	font-size: 36px;
  	line-height: 43px;
+     color:#61559F;
+     font-weight:200; 
         }
  .showcase-single-item h2 > span{ 
  	text-transform: uppercase;
