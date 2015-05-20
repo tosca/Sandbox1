@@ -420,7 +420,6 @@
     <Content Include="javascripts\libs\jquery.slimmenu.min.js" />
     <Content Include="javascripts\libs\jquery.touchSwipe.js" />
     <Content Include="javascripts\libs\jquery.tweet.js" />
-    <Content Include="javascripts\libs\kenburns.js" />
     <Content Include="javascripts\libs\mb.bgndGallery.effects.js" />
     <Content Include="javascripts\libs\mb.bgndGallery.js" />
     <Content Include="javascripts\libs\nova.parallax.js" />
@@ -530,7 +529,7 @@
     <Content Include="Views\Home\Brood.cshtml" />
     <Content Include="Views\Home\Bulge.cshtml" />
     <Content Include="Views\Home\Bump.cshtml" />
-    <Content Include="Views\Home\BolingOver.cshtml" />
+    <Content Include="Views\Home\BoilingOver.cshtml" />
     <Content Include="Views\Home\Crack.cshtml" />
     <Content Include="Views\Home\RoachStudy.cshtml" />
   </ItemGroup>
