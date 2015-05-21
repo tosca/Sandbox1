@@ -41,3 +41,24 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*resharper.user
+[Dd]ebug/
+[Rr]elease/
+build/
+[Bb]in/
+[Oo]bj/
+TestResults
+*.suo
+*.sln.cache
+_ReSharper.*/
+*.user
+**/Web/App.config
+**/**/log.txt
+**/**/logs
+**/**/**/**/Secret.sql
+**/*.testsettings
+**/*.vsmdi
+
+
+
