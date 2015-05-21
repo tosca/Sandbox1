@@ -1,52 +1,30 @@
 /*MAIN-RESPONSIVE.CSS*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*This is main CSS file that contains custom style rules used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: EIGHT.*/
-/* Author: Designova.*/
-/* Website: http://www.designova.net */
-/* Copyright: (C) 2014 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
-/*==========================*/
 /*ALL DEVICE OPTIMIZATION*/
-/*===========================*/
-
-
 /*Huge Displays*/
 @media (min-width: 3000px) {
 }
-
 /*Projector Screens and Ver Large Monitors*/
 @media (min-width: 2561px) {
 }
-
 /*iMac 27, HD Screens and Large Monitors*/
 @media (min-width: 1921px) and (max-width: 2560px) {
 
 }
-
 /*Large Widescreen Monitors*/
 @media (max-width: 1920px) {
 }
-
 /*Medium Widescreen Monitors*/
 @media (max-width: 1680px) {
 }
-
 /*Large Widescreen Laptops*/
 @media (max-width: 1440px) {
 }
-
 /*Common Widescreen Laptops*/
 @media (max-width: 1366px) {
 }
-
-
 /*Very Large Tablets and Medium Laptops*/
 @media (max-width: 1280px) {
 }
-
 /*Notebooks and Small Laptops*/
 @media (max-width: 1199px) {
 	.common-pad{
@@ -59,7 +37,6 @@
 		display: none;
 	}
 }
-
 /*iPad Landscape Mode and Large Tablets */
 @media (max-width: 1024px) {
 	.common-pad{
@@ -72,10 +49,8 @@
 		display: none;
 	}
 }
-
 /*Small Desktop and Very Small Notebook */
-@media (max-width: 990px) {
-	
+@media (max-width: 990px) {	
 	.container{
 	    max-width: 950px;
 	    padding-left:20px;
@@ -103,7 +78,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -126,15 +101,6 @@
 	    font-size: 22px;
 	    letter-spacing: normal;
 	    line-height: 29px;
-	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 24px;
-	    letter-spacing: 2px;
-	    line-height: 31px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
 	}
 	#slide-title {
 	    font-size: 22px;
@@ -172,10 +138,8 @@
 		margin-right: 10px;
 	}
 }
-
 /*Medium Tablets */
-@media (max-width: 800px) {
-	
+@media (max-width: 800px) {	
 	.container{
 	    max-width: 760px;
 	    padding-left:20px;
@@ -203,7 +167,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -226,15 +190,6 @@
 	    font-size: 18px;
 	    letter-spacing: normal;
 	    line-height: 25px;
-	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 20px;
-	    letter-spacing: 2px;
-	    line-height: 27px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
 	}
 	#slide-title {
 	    font-size: 18px;
@@ -272,11 +227,8 @@
 		margin-right: 10px;
 	}
 }
-
-
 /*iPad Portrait Mode, iPad Mini and Small Tablets */
-@media (max-width: 768px) {
-	
+@media (max-width: 768px) {	
 	.container{
 	    max-width: 728px;
 	    padding-left:20px;
@@ -304,7 +256,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -327,15 +279,6 @@
 	    font-size: 18px;
 	    letter-spacing: normal;
 	    line-height: 25px;
-	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 20px;
-	    letter-spacing: 2px;
-	    line-height: 27px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
 	}
 	#slide-title {
 	    font-size: 18px;
@@ -373,10 +316,8 @@
 		margin-right: 10px;
 	}
 }
-
 /*iPhone 6Plus Landscape Mode*/
-@media screen and (max-width: 736px) {
-	
+@media screen and (max-width: 736px) {	
 	.container{
 	    max-width: 696px;
 	    padding-left:20px;
@@ -404,7 +345,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -427,15 +368,6 @@
 	    font-size: 18px;
 	    letter-spacing: normal;
 	    line-height: 25px;
-	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 20px;
-	    letter-spacing: 2px;
-	    line-height: 27px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
 	}
 	#slide-title {
 	    font-size: 18px;
@@ -473,10 +405,8 @@
 		margin-right: 10px;
 	}
 }
-
 /*iPhone 6 Landscape Mode*/
-@media screen and (max-width: 667px) {
-	
+@media screen and (max-width: 667px) {	
 	.container{
 	    max-width: 627px;
 	    padding-left:20px;
@@ -504,7 +434,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -527,15 +457,6 @@
 	    font-size: 18px;
 	    letter-spacing: normal;
 	    line-height: 25px;
-	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 20px;
-	    letter-spacing: 2px;
-	    line-height: 27px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
 	}
 	#slide-title {
 	    font-size: 18px;
@@ -575,8 +496,7 @@
 }
 
 /*Medium Smart Phones v2*/
-@media screen and (max-width: 640px) {
-	
+@media screen and (max-width: 640px) {	
 	.container{
 	    max-width: 600px;
 	    padding-left:20px;
@@ -806,7 +726,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -907,7 +827,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -1108,7 +1028,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
@@ -1208,7 +1128,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 10px 0;
 	}
 	img.img-responsive{
 		display: inline-block;
