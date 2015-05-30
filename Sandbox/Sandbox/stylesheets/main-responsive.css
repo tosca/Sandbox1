@@ -494,7 +494,6 @@
 		margin-right: 10px;
 	}
 }
-
 /*Medium Smart Phones v2*/
 @media screen and (max-width: 640px) {	
 	.container{
@@ -524,7 +523,7 @@
 		width: 100%;
 	}
 	.page-section, .separator-section{
-		padding: 40px 0;
+		padding: 0;
 	}
 	img.img-responsive{
 		display: inline-block;

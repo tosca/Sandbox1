@@ -388,6 +388,7 @@
     <Content Include="images\view.png" />
     <Content Include="images\zoom%402x.png" />
     <Content Include="images\zoom.png" />
+    <Content Include="javascripts\libs\pace.preload.min.js" />
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
@@ -419,14 +420,12 @@
     <Content Include="javascripts\libs\jquery.parallax-1.1.3.js" />
     <Content Include="javascripts\libs\jquery.slimmenu.min.js" />
     <Content Include="javascripts\libs\jquery.touchSwipe.js" />
-    <Content Include="javascripts\libs\jquery.tweet.js" />
     <Content Include="javascripts\libs\mb.bgndGallery.effects.js" />
     <Content Include="javascripts\libs\mb.bgndGallery.js" />
     <Content Include="javascripts\libs\nova.parallax.js" />
     <Content Include="javascripts\libs\okvideo.js" />
     <Content Include="javascripts\libs\owl.carousel.js" />
     <Content Include="javascripts\libs\owl.carousel.min.js" />
-    <Content Include="javascripts\libs\pace.preload.min.js" />
     <Content Include="javascripts\libs\retina.js" />
     <Content Include="javascripts\libs\sly.min.js" />
     <Content Include="javascripts\libs\smooth-scroll.js" />
