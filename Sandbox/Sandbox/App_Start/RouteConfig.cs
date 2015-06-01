@@ -90,6 +90,12 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+               "Cracks",
+               "Cracks",
+               new { controller = "Home", action = "Cracks" }
+               );
+
+            routes.MapRoute(
                "The-Mother-Load-Project",
                "The-Mother-Load-Project",
                new { controller = "Home", action = "TheMotherLoadProject" }

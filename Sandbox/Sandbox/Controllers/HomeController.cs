@@ -61,7 +61,7 @@ namespace Sandbox.Controllers
 
             return View();
         }
-        public ActionResult BolingOver()
+        public ActionResult BoilingOver()
         {
 
             return View();
