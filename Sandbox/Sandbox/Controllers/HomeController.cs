@@ -71,6 +71,16 @@ namespace Sandbox.Controllers
 
             return View();
         }
+        public ActionResult Cracks()
+        {
+
+            return View();
+        }
+        public ActionResult Occupancy()
+        {
+
+            return View();
+        }
         
         public ActionResult About()
         {
