@@ -582,6 +582,7 @@
     <Content Include="Views\Home\Crack.cshtml" />
     <Content Include="Views\Home\RoachStudy.cshtml" />
     <Content Include="Views\Home\Cracks.cshtml" />
+    <Content Include="Views\Home\Occupancy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
