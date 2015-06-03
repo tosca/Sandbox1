@@ -71,7 +71,7 @@ namespace Sandbox.Controllers
 
             return View();
         }
-        public ActionResult Cracks()
+        public ActionResult Shifting()
         {
 
             return View();

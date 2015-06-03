@@ -267,6 +267,7 @@
     <Content Include="images\about\profile%402x.jpg" />
     <Content Include="images\about\profile-01%402x.jpg" />
     <Content Include="images\about\profile-01.jpg" />
+    <Content Include="images\about\profile-02.JPG" />
     <Content Include="images\about\profile.jpg" />
     <Content Include="images\boilingover\boil-01%402x.jpg" />
     <Content Include="images\boilingover\boil-01.jpg" />
@@ -593,7 +594,7 @@
     <Content Include="Views\Home\BoilingOver.cshtml" />
     <Content Include="Views\Home\Crack.cshtml" />
     <Content Include="Views\Home\RoachStudy.cshtml" />
-    <Content Include="Views\Home\Cracks.cshtml" />
+    <Content Include="Views\Home\Shifting.cshtml" />
     <Content Include="Views\Home\Occupancy.cshtml" />
   </ItemGroup>
   <ItemGroup>

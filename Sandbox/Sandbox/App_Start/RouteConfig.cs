@@ -90,9 +90,9 @@ namespace Sandbox
                );
 
             routes.MapRoute(
-               "Cracks",
-               "Cracks",
-               new { controller = "Home", action = "Cracks" }
+               "Shifting",
+               "Shifting",
+               new { controller = "Home", action = "Shifting" }
                );
 
             routes.MapRoute(
