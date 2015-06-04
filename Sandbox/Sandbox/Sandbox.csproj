@@ -263,11 +263,8 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="images\about\nat-name%402x.jpg" />
     <Content Include="images\about\nat-name.jpg" />
-    <Content Include="images\about\profile%402x.jpg" />
-    <Content Include="images\about\profile-01%402x.jpg" />
-    <Content Include="images\about\profile-01.jpg" />
-    <Content Include="images\about\profile-02.JPG" />
-    <Content Include="images\about\profile.jpg" />
+    <Content Include="images\about\nm-profile%402x.jpg" />
+    <Content Include="images\about\nm-profile.jpg" />
     <Content Include="images\boilingover\boil-01%402x.jpg" />
     <Content Include="images\boilingover\boil-01.jpg" />
     <Content Include="images\boilingover\boil-02%402x.jpg" />
@@ -542,7 +539,6 @@
     <Content Include="stylesheets\owl.carousel.css" />
     <Content Include="stylesheets\pace.preload.css" />
     <Content Include="stylesheets\parallax.css" />
-    <Content Include="stylesheets\simpletextrotator.css" />
     <Content Include="stylesheets\slidingmenu.css" />
     <Content Include="stylesheets\slimmenu.css" />
     <Content Include="stylesheets\venobox.css" />

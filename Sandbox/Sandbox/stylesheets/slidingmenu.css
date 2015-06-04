@@ -1,12 +1,4 @@
 /*SLIDINGMENU.CSS*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*This CSS file contains style rules for Sliding Menu*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Author: Designova.*/
-/* Website: http://www.designova.net */
-/* Copyright: (C) 2013 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
 .menu {
 	position: fixed;
 	left: -200px;
@@ -16,11 +8,9 @@
 	z-index: 100;
 	text-align: left;
 }
-
 .menu.menu-open {
 	left: 0px;
 }
-
 .sm-wrap {
 	position: absolute;
 	top: 0;
@@ -29,7 +19,6 @@
 	width: 200px;
 	height: 100%;
 }
-
 .menu h1.sm-logo{
 	font-family: 'Montserrat', sans-serif; font-weight: 700;
 	font-size: 24px;
@@ -39,13 +28,10 @@
 	color: #fff;
 	margin: 20px 10px;
 }
-
-
 .menu img.sm-logo {
 	margin: 20px 0;
 	max-width: 160px;
 }
-
 .menu a {
 	margin:0px;
 	margin-bottom: 2px;
@@ -63,7 +49,6 @@
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
-
 .menu a:hover {
 	background:rgba(0,0,0,0.5);
 	color: #ffffff;
@@ -73,11 +58,9 @@
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
-
 .menu a:active {
 	color: #ffffff;
 }
-
 .menu-close {
 	cursor: pointer;
 	display: block;
@@ -104,22 +87,18 @@
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
-
 /* Push the body after clicking the menu button */
 .sliding {
 	overflow-x: hidden;
 	position: relative;
 	left: 0;
 }
-
 .sliding-toright {
 	left: 200px;
 }
-
 .sliding-toleft {
 	left: -200px;
 }
-
 .menu,
 .sliding {
 	-webkit-transition: all .3s ease;
@@ -128,7 +107,6 @@
 		 -o-transition: all .3s ease;
 			transition: all .3s ease;
 }
-
 #sm-trigger {
 	border-radius: 50%;
 	position: absolute;
@@ -150,7 +128,6 @@
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
-
 #sm-trigger:hover {
 	border-radius: 50%;
 	color: #ffffff;
