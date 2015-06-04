@@ -364,6 +364,9 @@
 	    letter-spacing: 2px;
 	    line-height: 27px;
 	}
+    .showcase-single-item-inner h1 {
+        font-size: 24px;
+    }
 	.explore-link a {
 	    font-size: 18px;
 	    letter-spacing: normal;
