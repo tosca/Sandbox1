@@ -81,6 +81,18 @@ namespace Sandbox.Controllers
 
             return View();
         }
+
+        public ActionResult Combat()
+        {
+
+            return View();
+        }
+
+        public ActionResult Phenomenon()
+        {
+
+            return View();
+        }
         
         public ActionResult About()
         {

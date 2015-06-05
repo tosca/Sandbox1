@@ -60,6 +60,9 @@ h1,h2,h3,h4,h5,h6{
 .add-top-quarter{
 	margin-top: 30px;
 }
+.add-top-sixth{
+	margin-top: 20px;
+}
 .common-pad{
 	padding: 80px;
 }
@@ -431,16 +434,13 @@ h1,h2,h3,h4,h5,h6{
 .profile-list{
 	list-style: none;
 	padding-left: 0;
+    border-bottom: solid 1px;
 }
-.profile-list li{
-	border-bottom: solid 1px;
-	padding: 3px 0;
+.profile-list li{	
+	padding: 7px 0;
 }
 .profile-list li a{
 	display: block;
-}
-.twitter-panel{
-	padding: 50px;	
 }
 .stats-block{
 	padding: 50px;
@@ -622,7 +622,8 @@ h1,h2,h3,h4,h5,h6{
  	line-height: 31px;
  	margin-top: 20px;
         }
- .showcase-single-item h1{ 
+ .showcase-single-item h1,
+  .nat-name h1{ 
  	font-size: 36px;
  	line-height: 43px;
      margin-top: 10px;
@@ -630,7 +631,8 @@ h1,h2,h3,h4,h5,h6{
      font-weight:200; 
         }
  .showcase-single-item h2 > span,
- .showcase-single-item h1 > span{ 
+ .showcase-single-item h1 > span,
+ .nat-name h1 > span{ 
  	text-transform: uppercase;
  	font-weight: 500;
      letter-spacing: 4px;

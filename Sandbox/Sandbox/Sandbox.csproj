@@ -294,6 +294,20 @@
     <Content Include="images\bxslider\prev%402x.png" />
     <Content Include="images\bxslider\prev.png" />
     <Content Include="images\bx_loader.gif" />
+    <Content Include="images\combat\combat-01%402x.jpg" />
+    <Content Include="images\combat\combat-01.jpg" />
+    <Content Include="images\combat\combat-02%402x.jpg" />
+    <Content Include="images\combat\combat-02.jpg" />
+    <Content Include="images\combat\combat-03%402x.jpg" />
+    <Content Include="images\combat\combat-03.jpg" />
+    <Content Include="images\combat\combat-04%402x.jpg" />
+    <Content Include="images\combat\combat-04.jpg" />
+    <Content Include="images\combat\combat-05%402x.jpg" />
+    <Content Include="images\combat\combat-05.jpg" />
+    <Content Include="images\combat\combat-06%402x.jpg" />
+    <Content Include="images\combat\combat-06.jpg" />
+    <Content Include="images\combat\combat-07%402x.jpg" />
+    <Content Include="images\combat\combat-07.jpg" />
     <Content Include="images\cracks\cracks-01%402x.jpg" />
     <Content Include="images\cracks\cracks-01.jpg" />
     <Content Include="images\cracks\cracks-02%402x.jpg" />
@@ -458,6 +472,7 @@
     <Content Include="javascripts\libs\pace.preload.min.js" />
     <Content Include="less\color.less" />
     <Content Include="less\fonts.less" />
+    <Content Include="images\about\Natalie Macellaio CV  5-15.pdf" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="less\less-2.0.0.min.js" />
     <Content Include="javascripts\custom\coverflow-init.js" />
@@ -593,6 +608,8 @@
     <Content Include="Views\Home\Bump.cshtml" />
     <Content Include="Views\Home\Shifting.cshtml" />
     <Content Include="Views\Home\Occupancy.cshtml" />
+    <Content Include="Views\Home\Combat.cshtml" />
+    <Content Include="Views\Home\Phenomenon.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -102,6 +102,18 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+               "Combat",
+               "Combat",
+               new { controller = "Home", action = "Combat" }
+               );
+
+            routes.MapRoute(
+               "Phenomenon",
+               "Phenomenon",
+               new { controller = "Home", action = "Phenomenon" }
+               );
+
+            routes.MapRoute(
                "The-Mother-Load-Project",
                "The-Mother-Load-Project",
                new { controller = "Home", action = "TheMotherLoadProject" }
