@@ -308,6 +308,14 @@
     <Content Include="images\combat\combat-06.jpg" />
     <Content Include="images\combat\combat-07%402x.jpg" />
     <Content Include="images\combat\combat-07.jpg" />
+    <Content Include="images\combat\walklight-01%402x.jpg" />
+    <Content Include="images\combat\walklight-01.jpg" />
+    <Content Include="images\combat\walklight-02%402x.jpg" />
+    <Content Include="images\combat\walklight-02.jpg" />
+    <Content Include="images\combat\walklight-03%402x.jpg" />
+    <Content Include="images\combat\walklight-03.jpg" />
+    <Content Include="images\combat\walklight-04%402x.jpg" />
+    <Content Include="images\combat\walklight-04.jpg" />
     <Content Include="images\cracks\cracks-01%402x.jpg" />
     <Content Include="images\cracks\cracks-01.jpg" />
     <Content Include="images\cracks\cracks-02%402x.jpg" />
@@ -402,6 +410,16 @@
     <Content Include="images\occupy\occupancy-07.jpg" />
     <Content Include="images\occupy\occupancy-08%402x.jpg" />
     <Content Include="images\occupy\occupancy-08.jpg" />
+    <Content Include="images\combat\apt710-01%402x.jpg" />
+    <Content Include="images\combat\apt710-01.jpg" />
+    <Content Include="images\combat\apt710-02%402x.jpg" />
+    <Content Include="images\combat\apt710-02.jpg" />
+    <Content Include="images\combat\apt710-03%402x.jpg" />
+    <Content Include="images\combat\apt710-03.jpg" />
+    <Content Include="images\combat\apt710-04%402x.jpg" />
+    <Content Include="images\combat\apt710-04.jpg" />
+    <Content Include="images\combat\apt710-05%402x.jpg" />
+    <Content Include="images\combat\apt710-05.jpg" />
     <Content Include="images\piercing\piercing-01%402x.jpg" />
     <Content Include="images\piercing\piercing-01.jpg" />
     <Content Include="images\piercing\piercing-02%402x.jpg" />
@@ -467,6 +485,16 @@
     <Content Include="images\venobox\prev.gif" />
     <Content Include="images\view%402x.png" />
     <Content Include="images\view.png" />
+    <Content Include="images\wannabe\wannabe-01%402x.jpg" />
+    <Content Include="images\wannabe\wannabe-01.jpg" />
+    <Content Include="images\wannabe\wannabe-02%402x.jpg" />
+    <Content Include="images\wannabe\wannabe-02.jpg" />
+    <Content Include="images\wannabe\wannabe-03%402x.jpg" />
+    <Content Include="images\wannabe\wannabe-03.jpg" />
+    <Content Include="images\wannabe\wannabe-04%402x.jpg" />
+    <Content Include="images\wannabe\wannabe-04.jpg" />
+    <Content Include="images\wannabe\wannabe-05%402x.jpg" />
+    <Content Include="images\wannabe\wannabe-05.jpg" />
     <Content Include="images\zoom%402x.png" />
     <Content Include="images\zoom.png" />
     <Content Include="javascripts\libs\pace.preload.min.js" />
@@ -613,6 +641,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\phenom\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
