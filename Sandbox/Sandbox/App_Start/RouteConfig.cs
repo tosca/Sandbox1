@@ -120,6 +120,30 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+               "Wannabe",
+               "Wannabe",
+               new { controller = "Home", action = "Wannabe" }
+               );
+
+            routes.MapRoute(
+               "Petite-Show",
+               "Petite-Show",
+               new { controller = "Home", action = "PetiteShow" }
+               );
+
+            routes.MapRoute(
+               "The-Merger",
+               "The-Merger",
+               new { controller = "Home", action = "TheMerger" }
+               );
+
+            routes.MapRoute(
+               "Trestle-Designs",
+               "Trestle-Designs",
+               new { controller = "Home", action = "TrestleDesigns" }
+               );
+
+            routes.MapRoute(
                "about",
                "about",
                new { controller = "Home", action = "Index/#about" }

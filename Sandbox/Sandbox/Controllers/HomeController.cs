@@ -109,6 +109,28 @@ namespace Sandbox.Controllers
 
             return View();
         }
+        public ActionResult Wannabe()
+        {
+
+            return View();
+        }
+        public ActionResult PetiteShow()
+        {
+
+            return View();
+        }
+        public ActionResult TheMerger()
+        {
+
+            return View();
+        }
+        public ActionResult TrestleDesigns()
+        {
+
+            return View();
+        }
+
+
      }   
         
      
