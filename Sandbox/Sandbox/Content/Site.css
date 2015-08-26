@@ -31,11 +31,12 @@ textarea {
 body {
     background-color: #fff;
     /*border-top: solid 10px #000;*/
-    color: #777;
+    color: #61559f;
     font-size: .85em;
     font-size: 1em;
-   font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-  /*  font-family: "Open Sans" sans-serif;*/
+ /*  font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;*/
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -50,9 +51,10 @@ a {
     a:active, a:hover {
         color: #333;
     }
-    a:hover {
+ /*   a:hover {
         background-color: #c7d1d6;
-    }
+    }*/
+
 header, footer, hgroup,
 nav, section {
     display: block;
