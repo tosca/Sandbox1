@@ -1,4 +1,6 @@
-﻿using System;
+﻿using RestSharp;
+using RestSharp.Authenticators;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -99,11 +101,6 @@ namespace Sandbox.Controllers
 
             return View();
         }
-        public ActionResult Contact()
-        {
-
-            return View();
-        }
         public ActionResult TheMotherLoadProject()
         {
 
@@ -131,8 +128,78 @@ namespace Sandbox.Controllers
         }
 
 
-     }   
-        
-     
+      
+ 
+       
+    [HttpGet]
+        public ActionResult Contact()
+        { 
+            ViewBag.Message = "Your contact page.";
+            
+            return View(new ContactInfo());
+        }
+        [HttpPost]
+        public ActionResult Contact(ContactInfo contact)
+        {
+            ViewBag.Message = "Your contact page.";
+           
+            var fullName = contact.FullName;
+            var contactEmail = contact.ContactEmail;
+            var contactPhone = contact.ContactPhone;
+            var contactMessage = contact.ContactMessage;
+          SendEmail(fullName, contactEmail, contactPhone, contactMessage);
+            return RedirectToAction("Home");
+        }
+
+        public ActionResult ContactSubmited()
+        {
+
+            var result = new FilePathResult("~/Views/Home/Index.html", "text/html");
+            return result;
+
+        }
+
+
+        public void SendEmail(string fullName, string contactEmail, string contactPhone, string contactMessage)
+        {
+            string mailgunKey = System.Configuration.ConfigurationManager.AppSettings["MAILGUN_API_KEY"];
+            if (mailgunKey == null)
+            {
+                throw new Exception("Mailgun api key missing");
+            }
+            RestClient client = new RestClient();
+            client.BaseUrl = new Uri("https://api.mailgun.net/v3");
+            client.Authenticator =
+                    new HttpBasicAuthenticator("api",
+                                               mailgunKey);
+
+            RestRequest request = new RestRequest();
+            request.AddParameter("domain",
+                                 System.Configuration.ConfigurationManager.AppSettings["MAILGUN_DOMAIN"], ParameterType.UrlSegment);
+            request.Resource = "{domain}/messages";
+            request.AddParameter("from", "Natalie Macellaio - inquiry <mailgun@mailgun.org>");
+            request.AddParameter("to", "tosca.ragnini@gmail.com, nataliemacellaio@gmail.com");
+            request.AddParameter("subject", "Natalie Macellaio - Contact Request");
+            request.AddParameter("text", "FullName : " + fullName);
+            request.AddParameter("text", "ContactEmail : " + contactEmail);
+            request.AddParameter("text", "ContactPhone : " + contactPhone);
+            request.AddParameter("text", "ContactMessage : " + contactMessage);
+            request.Method = Method.POST;
+            var result = client.Execute(request);
+            return;
+        }
+
+
+    }
+
+
+    public class ContactInfo
+    {
+        public string FullName { get; set; }
+        public string ContactEmail { get; set; }
+        public string ContactPhone { get; set; }
+        public string ContactMessage { get; set; }
+
+    }  
     
 }

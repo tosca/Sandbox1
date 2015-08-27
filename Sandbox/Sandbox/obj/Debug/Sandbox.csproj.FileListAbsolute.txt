@@ -160,3 +160,5 @@ C:\Root\Projects\Sandbox1\Sandbox\Sandbox\bin\zh-Hant\System.Spatial.resources.d
 C:\Root\Projects\Sandbox1\Sandbox\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
 C:\Root\Projects\Sandbox1\Sandbox\Sandbox\obj\Debug\Sandbox.dll
 C:\Root\Projects\Sandbox1\Sandbox\Sandbox\obj\Debug\Sandbox.pdb
+C:\Root\Projects\Sandbox1\Sandbox\Sandbox\bin\RestSharp.dll
+C:\Root\Projects\Sandbox1\Sandbox\Sandbox\bin\RestSharp.xml
