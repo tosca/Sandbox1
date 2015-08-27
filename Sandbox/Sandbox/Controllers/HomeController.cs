@@ -10,8 +10,6 @@ namespace Sandbox.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
 
        public ActionResult Index()
         {
@@ -147,7 +145,7 @@ namespace Sandbox.Controllers
             var contactPhone = contact.ContactPhone;
             var contactMessage = contact.ContactMessage;
           SendEmail(fullName, contactEmail, contactPhone, contactMessage);
-            return RedirectToAction("Home");
+            return RedirectToAction("Index");
         }
 
         public ActionResult ContactSubmited()
