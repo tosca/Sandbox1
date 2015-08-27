@@ -260,3 +260,10 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
+
+Sandbox/Sandbox/bin/Sandbox.dll
+*.dll
+*.dll
+Sandbox/Sandbox/bin/Sandbox.pdb
+Sandbox/Sandbox/obj/Debug/Sandbox.dll
+*.pdb

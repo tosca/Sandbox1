@@ -141,8 +141,7 @@ namespace Sandbox.Controllers
         [HttpPost]
         public ActionResult Contact(ContactInfo contact)
         {
-            ViewBag.Message = "Your contact page.";
-           
+
             var fullName = contact.FullName;
             var contactEmail = contact.ContactEmail;
             var contactPhone = contact.ContactPhone;
