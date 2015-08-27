@@ -267,3 +267,5 @@ Sandbox/Sandbox/bin/Sandbox.dll
 Sandbox/Sandbox/bin/Sandbox.pdb
 Sandbox/Sandbox/obj/Debug/Sandbox.dll
 *.pdb
+Sandbox/Sandbox/bin/Sandbox.dll
+*.pdb
