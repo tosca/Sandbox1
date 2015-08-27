@@ -163,7 +163,7 @@ namespace Sandbox.Controllers
         public void SendEmail(string fullName, string contactEmail, string contactPhone, string contactMessage)
         {
             string mailgunKey = System.Configuration.ConfigurationManager.AppSettings["MAILGUN_API_KEY"];
-            if (mailgunKey == null)
+            if (String.IsNullOrEmpty(mailgunKey))
             {
                 throw new Exception("Mailgun api key missing");
             }
@@ -175,7 +175,8 @@ namespace Sandbox.Controllers
 
             RestRequest request = new RestRequest();
             request.AddParameter("domain",
-                                 System.Configuration.ConfigurationManager.AppSettings["MAILGUN_DOMAIN"], ParameterType.UrlSegment);
+                                 System.Configuration.ConfigurationManager.AppSettings["MAILGUN_DOMAIN"], 
+                                 ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
             request.AddParameter("from", "Natalie Macellaio - inquiry <mailgun@mailgun.org>");
             request.AddParameter("to", "tosca.ragnini@gmail.com, nataliemacellaio@gmail.com");
