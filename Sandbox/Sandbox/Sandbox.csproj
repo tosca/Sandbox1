@@ -370,6 +370,26 @@
     <Content Include="images\drag%402x.png" />
     <Content Include="images\drag.png" />
     <Content Include="images\favicon\favicon.png" />
+    <Content Include="images\metalpods\metalpod-01%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-01.jpg" />
+    <Content Include="images\metalpods\metalpod-02%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-02.jpg" />
+    <Content Include="images\metalpods\metalpod-03%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-03.jpg" />
+    <Content Include="images\metalpods\metalpod-04%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-04.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-05%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-05.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-06%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-06.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-07%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-07.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-08%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-08.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-09%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-09.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-10%402x.jpg" />
+    <Content Include="images\metalpods\metalpod-tall-10.jpg" />
     <Content Include="images\touchicon\apple-touch-icon-114-precomposed.png" />
     <Content Include="images\touchicon\apple-touch-icon-144-precomposed.png" />
     <Content Include="images\touchicon\apple-touch-icon-57-precomposed.png" />
@@ -705,6 +725,7 @@
     <Content Include="Views\Home\PetiteShow.cshtml" />
     <Content Include="Views\Home\TheMerger.cshtml" />
     <Content Include="Views\Home\TrestleDesigns.cshtml" />
+    <Content Include="Views\Home\MetalPods.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

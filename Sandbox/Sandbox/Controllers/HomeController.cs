@@ -93,6 +93,12 @@ namespace Sandbox.Controllers
 
             return View();
         }
+
+        public ActionResult MetalPods()
+        {
+
+            return View();
+        }
         
         public ActionResult About()
         {

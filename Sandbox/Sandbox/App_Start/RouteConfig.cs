@@ -114,6 +114,12 @@ namespace Sandbox
                );
 
             routes.MapRoute(
+               "Metal-Pods",
+               "Metal-Pods",
+               new { controller = "Home", action = "MetalPods" }
+               );
+
+            routes.MapRoute(
                "The-Mother-Load-Project",
                "The-Mother-Load-Project",
                new { controller = "Home", action = "TheMotherLoadProject" }

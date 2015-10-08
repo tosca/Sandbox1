@@ -592,7 +592,7 @@ p{
 .showcase-single-item p > span{  
             font-size: 18px;
             line-height: 25px;
-            padding: 12px;
+         /*   padding: 12px;*/
             text-transform: uppercase;
         }
 .showcase-single-content{
